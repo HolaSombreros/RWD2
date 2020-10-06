@@ -3,3 +3,22 @@ body {
 }
 
 
+#mainBody{
+    height: 100%;
+    width: auto;
+    display: flex;
+
+}
+#nav{
+    height: 100%;
+    width: 30%;
+    border: 2px solid fuchsia;
+}
+
+#about_content{
+    height: 100%;
+    width: 70%;
+    border: 2px solid fuchsia;
+    position: relative;
+
+}

@@ -63,6 +63,10 @@ div#event:nth-child(even) {
 #header{
     background-color: #990000;
     text-align: center;
+    padding: 20px 20px;
+}
+
+#header h1  {
     color: #FFF;
 }
 

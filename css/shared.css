@@ -1,5 +1,5 @@
 :root {
-    --mainColor: #ffffff;
+    --mainColor: #f0f0f0;
     --textColor: #141236;
     --buttonColor: #e85a4f;
     --borderColor: #e0e0e0;
@@ -10,6 +10,22 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--mainColor);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--textColor);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
 }
 
 html, body {
@@ -50,7 +66,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--mainColor);
+    background-color: #ffffff;
     border-bottom: 1px solid var(--borderColor);
 }
 
@@ -109,9 +125,10 @@ nav ul a:hover::before {
 /* FOOTER GENERAL: */
 footer {
     width: 100%;
-    background-color: var(--mainColor);
+    background-color: #ffffff;
     border-top: 1px solid var(--borderColor);
     display: flex;
+    padding: 20px;
 }
 
 #left-footer, #right-footer {
@@ -145,15 +162,17 @@ footer {
     justify-content: space-evenly;
 }
 
+#copyright-wrapper p {
+    font-weight: bold;
+}
+
 /* RIGHT FOOTER COLUMN: */
 #follow-us-wrapper ul {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
 }
     
 #follow-us-wrapper a {
-    margin-bottom: 10px;
     font-size: 2em;
     color: var(--buttonColor);
     transition: .3s linear;

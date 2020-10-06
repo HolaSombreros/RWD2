@@ -1,0 +1,78 @@
+#stefi
+{
+    width:200px;
+    height:186px;
+    border-radius: 50px;
+    
+    
+}
+#adriana
+{
+    width:200px;
+    height:186px;
+    border-radius: 50px;
+}
+#vlad
+{
+    width:200px;
+    height:186px;
+    border-radius: 50px;
+     border-image: 
+    linear-gradient(
+      to bottom, 
+      purple, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+    box-sizing:border-box;
+    border-width: 3px;
+    border-style: solid;
+}
+.flex-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    margin-bottom: 25px;
+    margin-top: 200px;
+}
+#morten
+{
+    width:200px;
+    height:186px;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      orange, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50px;
+    
+
+}
+h1
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer
+{
+    
+   
+}
+.flexbox
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+}
+main
+{
+    
+    height: 700px;
+}

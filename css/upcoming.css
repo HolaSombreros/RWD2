@@ -3,24 +3,35 @@
 }
 
 #event_image {
-    height: 150px;
+    height: 146px;
     width: 200px;
-    padding: 0px;
 }
 
 #event_text {
-    height: 150px;
+    height: 146px;
     width: 150px;
     background-color: #000;
-    color: #FFF;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#event_text p{
+    color: #FFF;
 }
 
 #event_description {
     height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
 }
+
+
 
 .events {
     width: 80%;
@@ -37,7 +48,8 @@
 #genre {
     height: 20px;
     width: 150px;
-    background-color: #459525;    
+    background-color: #459525; 
+    color: #FFF;
 }
 
 div#event:nth-child(odd) {

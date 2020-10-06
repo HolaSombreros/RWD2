@@ -50,6 +50,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--mainColor);
     border-bottom: 1px solid var(--borderColor);
 }
 
@@ -108,7 +109,7 @@ nav ul a:hover::before {
 /* FOOTER GENERAL: */
 footer {
     width: 100%;
-    background-color: var(--testColor);
+    background-color: var(--mainColor);
     border-top: 1px solid var(--borderColor);
     display: flex;
 }
@@ -138,13 +139,7 @@ footer {
     width: 33%;
 }
 
-/*
-footer p {
-    font-size: 0.8em;
-}*/
-
 /* LEFT FOOTER COLUMN: */
-
 #copyright-wrapper ul {
     display: flex;
     justify-content: space-evenly;

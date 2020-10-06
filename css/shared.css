@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--textColor);
 }
 
-p, a, li, span {
+p, a, li, span, label, input, textarea {
     font-family: 'Open Sans', Arial, sans-serif;
     color: var(--textColor);
     font-size: 1em;
@@ -111,11 +111,13 @@ nav ul a:hover::before {
     background-color: var(--buttonColor);
     color: var(--mainColor);
     padding: 12px 20px;
+    border: none;
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
     transition: .3s ease;
+    cursor: pointer;
 }
 
 .button:hover {

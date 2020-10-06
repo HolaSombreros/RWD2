@@ -1,24 +1,29 @@
+
 body {
     background-color: #f0f0f0;
 }
 
 
 #mainContent{
-    height: 100%;
-    width: auto;
+    width: 100%;
     display: flex;
 
 }
 #navigation{
-    height: 100%;
-    width: 30%;
+    height: 400px;
+    width: 300px;
     border: 2px solid fuchsia;
+    margin: 10%;
+
 }
 
 #about_content{
-    height: 100%;
     width: 70%;
     border: 2px solid fuchsia;
-    position: relative;
+    justify-self: flex-end;
+}
 
+#about_content div{
+    border: 2px solid yellow;
+    margin: 100px;
 }

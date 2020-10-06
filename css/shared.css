@@ -108,7 +108,6 @@ nav ul a:hover::before {
 /* FOOTER GENERAL: */
 footer {
     width: 100%;
-    padding: 30px;
     background-color: var(--testColor);
     border-top: 1px solid var(--borderColor);
     display: flex;
@@ -128,8 +127,7 @@ footer {
 }
 
 .wrapper {
-    padding: 30px;
-    border: 1px solid green;
+    padding: 20px;
 }
 
 .wrapper h5 {

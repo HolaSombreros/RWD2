@@ -17,12 +17,12 @@
     width:200px;
     height:186px;
     border-radius: 50px;
-     border-image: 
-    linear-gradient(
-      to bottom, 
-      purple, 
-      rgba(0, 0, 0, 0)
-    ) 1 100%;
+    border-image: 
+        linear-gradient(
+          to bottom, 
+          purple, 
+          rgba(0, 0, 0, 0)
+        ) 1 100%;
     box-sizing:border-box;
     border-width: 3px;
     border-style: solid;
@@ -75,4 +75,9 @@ main
 {
     
     height: 700px;
+}
+a:hover
+{
+    
+  
 }

@@ -1,0 +1,59 @@
+.floating  {
+    float:left;
+}
+
+#event_image {
+    height: 150px;
+    width: 200px;
+    padding: 0px;
+}
+
+#event_text {
+    height: 150px;
+    width: 150px;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#event_description {
+    height: 150px;
+}
+
+.events {
+    width: 80%;
+    margin:0 auto;
+}
+
+#event  {
+    height: 150px;
+    width:auto;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#genre {
+    height: 20px;
+    width: 150px;
+    background-color: #459525;    
+}
+
+div#event:nth-child(odd) {
+    background-color: #aaa;
+}
+
+div#event:nth-child(even) {
+    background-color: #666;
+}
+
+#header{
+    background-color: #990000;
+    text-align: center;
+    color: #FFF;
+}
+
+
+
+

@@ -3,13 +3,13 @@ body {
 }
 
 
-#mainBody{
+#mainContent{
     height: 100%;
     width: auto;
     display: flex;
 
 }
-#nav{
+#navigation{
     height: 100%;
     width: 30%;
     border: 2px solid fuchsia;

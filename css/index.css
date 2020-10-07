@@ -14,7 +14,6 @@ main {
 #left-main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     border-right: 1px solid var(--borderColor);
     padding: 50px;
@@ -25,6 +24,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 #greeting-wrapper img {
@@ -56,7 +56,7 @@ main {
 #right-main {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 100px repeat(2, 600px);
+    grid-template-rows: 100px repeat(2, 700px);
     justify-items: center;
     align-items: center;
 }
@@ -97,4 +97,8 @@ main {
 
 .highlighted-event p {
     text-align: center;
+}
+
+.highlighted-event p:first-of-type {
+    font-weight: bold;
 }

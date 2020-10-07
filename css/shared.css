@@ -146,11 +146,11 @@ footer {
     flex-direction: column;
 }
 
-.wrapper {
+.footer-wrapper {
     padding: 20px;
 }
 
-.wrapper h5 {
+.footer-wrapper h5 {
     margin-bottom: 20px;
 }
 

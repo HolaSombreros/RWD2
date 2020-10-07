@@ -31,9 +31,22 @@
 
     <!-- MAIN: -->
     <main>
-        <div>
-            <h1>MAIN CONTENT GOES HERE</h1>
-        </div>
+        <form name="contactForm" method="get" action="http://www.no-where.com/formhandler.php">
+            <h5>Send us a message!</h5>
+            <div class="form-section">
+                <label for="name">Your name</label>
+                <input class="input" type="text" name="name" minlength="2" maxlength="60" required>
+            </div>
+            <div class="form-section">
+                <label for="email">Your email address</label>
+                <input class="input" type="text" name="email" minlength="6" maxlength="60" required>
+            </div>
+            <div class="form-section">
+                <label for="message">Your message</label>
+                <textarea class="input" name="message" minlength="6" maxlength="3000" required></textarea>
+            </div>
+            <button type="submit" class="button">Send Message</button>
+        </form>
     </main>
 
     <!-- FOOTER: -->

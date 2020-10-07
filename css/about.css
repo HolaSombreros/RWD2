@@ -3,23 +3,23 @@ body {
     background-color: #f0f0f0;
 }
 
-
 #mainContent{
     width: 100%;
     display: flex;
 
 }
 #navigation{
-    height: 400px;
-    width: 300px;
-    border: 2px solid fuchsia;
+    height: 300px;
+    width: 250px;
+    border: 2px solid #e0e0e0;
     margin: 10%;
+    border-radius: 5px 40px 5px;
+   
 
 }
 
 #about_content{
     width: 70%;
-    border: 2px solid fuchsia;
     justify-self: flex-end;
 }
 
@@ -27,3 +27,18 @@ body {
     border: 2px solid yellow;
     margin: 100px;
 }
+
+#navpoints{
+    margin: 60px;
+}
+
+ #navpoints li{
+     margin: 20px;
+ }
+
+ .title{
+     font-family: 'Kumbh Sans', sans-serif;
+     font-size: 20px;
+     margin: 60px;
+     display: flex;
+ }

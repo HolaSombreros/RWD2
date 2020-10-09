@@ -124,6 +124,53 @@ nav ul a:hover::before {
     background-color: var(--textColor);
 }
 
+.event {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.event img {
+    width: 40%;
+    height: 100%;
+    box-shadow: -3px 3px 10px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: -3px 3px 10px 0px rgba(0,0,0,1);
+    -moz-box-shadow: -3px 3px 10px 0px rgba(0,0,0,1);
+    object-fit: cover;
+}
+
+.event-text h2 {
+    text-align: center;
+}
+
+.event-text p:first-of-type {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.event-text p {
+    margin-top: 10px;
+}
+
+.event-text {
+    background-color: #ffffff;
+    width: 40%;
+    padding: 30px;
+    border: 1px solid var(--borderColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-text p:last-of-type {
+    margin-bottom: 20px;
+}
+
 /* FOOTER GENERAL: */
 footer {
     width: 100%;
@@ -166,6 +213,15 @@ footer {
 
 #copyright-wrapper p {
     font-weight: bold;
+}
+
+#about-wrapper a {
+    color: #e85a4f;
+    transition: .3s ease;
+}
+
+#about-wrapper a:hover {
+    color: #141236;
 }
 
 /* RIGHT FOOTER COLUMN: */

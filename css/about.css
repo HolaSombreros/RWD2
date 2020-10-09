@@ -5,38 +5,16 @@ body {
 
 #mainContent{
     width: 100%;
-    display: flex;
-
-}
-#navigation{
-    height: 300px;
-    width: 250px;
-    border: 2px solid #e0e0e0;
-    margin: 5%;
-    border-radius: 5px 40px 5px;
-    position: fixed;
-
-
-}
-
-#about_content{
-    width: 80%;
     justify-self: flex-end;
-    margin-left: 20% ;
+
 }
 
-#about_content div{
-    border: 2px solid yellow;
-    margin: 100px;
+
+#mainContent div{
+    margin: 200px 100px;
+
 }
 
-#navpoints{
-    margin: 60px;
-}
-
- #navpoints li{
-     margin: 30px;
- }
 
  .title{
      font-family: 'Kumbh Sans', sans-serif;
@@ -44,3 +22,72 @@ body {
      margin: 60px;
      display: flex;
  }
+
+ #about_header{
+     width: 100%;
+     height: 200px;
+     background-color: #e6e6e6;
+     border-bottom:3px solid #e0e0e0;
+     
+ }
+
+ #about_header h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    vertical-align: middle;
+    text-align: center;  
+ }
+
+
+
+ .aboutLeft h3{
+     text-align: left;
+     margin-left: 100px;;
+ }
+
+ .aboutRight h3{
+     text-align: right;
+     margin-right: 100px;
+ }
+ 
+
+ .aboutRight img{
+     align-self: right;
+ }
+ .aboutImg{
+    width: 500px;
+    height: 400px;
+ }
+
+ .aboutLeft{
+     justify-content: flex-end;
+ }
+ .aboutRight{
+    justify-content: flex-end;
+ }
+ .mainRight{
+   float: right;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

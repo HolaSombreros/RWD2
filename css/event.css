@@ -6,17 +6,12 @@ main {
 
 .max-width {
     width: 75%;
+    height: 100%;
     padding: 50px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.event-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .event-buttons a {

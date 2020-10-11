@@ -40,10 +40,6 @@ body {
     height: 300px;
 }
 
-.aboutLeft h3{
-     text-align: left;
-     margin-left: 55px;;
- }
 
  .aboutRight h3{
      text-align: right;
@@ -51,30 +47,27 @@ body {
  }
 
  .aboutLeft{
+     display: flex;
      justify-content: flex-end;
-     border: 1px solid black;
  }
 
- .aboutRight{
-    justify-content: flex-end;
-     border: 1px solid black;
+ .aboutRight {
+     display: flex;
+     justify-content: flex-end;
  }
- .mainRight{
+
+ .headerRight{
+     justify-self: right;
+ }
+
+ .headerRight h3{
      text-align: right;
+     margin-right: 50px;
  }
 
- .mainLeft p{
-     width: 70%;
- }
-.mainRight p{
-    width: 70%;
-    
+.headerLeft h3{
+    margin-left: 50px;
 }
-
-
-
-
-
 
 
 

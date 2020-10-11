@@ -9,12 +9,10 @@ body {
 
 }
 
-
 #mainContent div{
-    margin: 200px 100px;
+    margin: 50px 50px;
 
 }
-
 
  .title{
      font-family: 'Kumbh Sans', sans-serif;
@@ -33,53 +31,45 @@ body {
 
  #about_header h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    vertical-align: middle;
-    text-align: center;  
+    text-align: center;
+     padding: 60px;
+
  }
+.aboutImg{
+    width: 400px;
+    height: 300px;
+}
 
-
-
- .aboutLeft h3{
+.aboutLeft h3{
      text-align: left;
-     margin-left: 100px;;
+     margin-left: 55px;;
  }
 
  .aboutRight h3{
      text-align: right;
-     margin-right: 100px;
- }
- 
-
- .aboutRight img{
-     align-self: right;
- }
- .aboutImg{
-    width: 500px;
-    height: 400px;
+     margin-right: 55px;
  }
 
  .aboutLeft{
      justify-content: flex-end;
+     border: 1px solid black;
  }
+
  .aboutRight{
     justify-content: flex-end;
+     border: 1px solid black;
  }
  .mainRight{
-   float: right;
+     text-align: right;
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
+ .mainLeft p{
+     width: 70%;
+ }
+.mainRight p{
+    width: 70%;
+    
+}
 
 
 

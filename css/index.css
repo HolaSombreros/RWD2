@@ -72,10 +72,10 @@ main {
 }
 
 .important-notice {
-    background-color: rgb(232, 90, 79);
-    padding: 15px;
+    background-color: #ffff00;
+    padding: 10px;
     font-weight: bold;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 /* RIGHT COLUMN: */

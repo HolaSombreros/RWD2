@@ -4,6 +4,9 @@ main {
     align-items: center;
     max-width: 100%;
     padding: 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("../images/music-instruments.jpg");
+    background-size: cover;
+    background-position-y: center;
 }
 
 form {

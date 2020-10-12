@@ -2,12 +2,12 @@
     float:left;
 }
 
-#event_image {
+.event_image {
     height: 146px;
     width: 200px;
 }
 
-#event_text {
+.event_text {
     height: 146px;
     width: 150px;
     background-color: #000;
@@ -17,13 +17,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    float: left;
 }
 
-#event_text p{
+.event_text p{
     color: #FFF;
 }
 
-#event_description {
+.event_description {
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -33,30 +34,30 @@
 
 
 
-.events {
+#events {
     width: 80%;
     margin:0 auto;
 }
 
-#event  {
+.event  {
     height: 150px;
     width:auto;
     border-style: solid;
     border-width: 2px;
 }
 
-#genre {
+.genre {
     height: 20px;
     width: 150px;
     background-color: #459525; 
     color: #FFF;
 }
 
-div#event:nth-child(odd) {
+div.event:nth-child(odd) {
     background-color: #aaa;
 }
 
-div#event:nth-child(even) {
+div.event:nth-child(even) {
     background-color: #666;
 }
 
@@ -70,8 +71,21 @@ div#event:nth-child(even) {
     color: #FFF;
 }
 
-#event_buttons {
+.event_buttons {
+    background-color: var(--buttonColor);
+    color: var(--mainColor);
     padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.event_button:hover {
+    background-color: var(--textColor);
 }
 
 

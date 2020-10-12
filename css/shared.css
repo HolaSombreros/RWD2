@@ -173,7 +173,7 @@ footer {
 }
 
 #about-wrapper a {
-    color: #e85a4f;
+    color: var(--buttonColor);
 }
 
 /* RIGHT FOOTER COLUMN: */

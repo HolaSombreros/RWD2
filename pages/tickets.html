@@ -7,7 +7,7 @@
 
     <!-- CSS STYLESHEETS: -->
     <link rel="stylesheet" type="text/css" href="../css/shared.css">
-    <link rel="stylesheet" type="text/css" href="../css/tickets.css">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
 
     <!-- FONTS: -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Open+Sans&display=swap">
@@ -30,17 +30,73 @@
     </header>
 
     <main>
-        <h1>MAIN CONTENT GOES HERE</h1>
+        <form name="contactForm" method="get" action="http://www.no-where.com/formhandler.php">
+            <h5>Buy Tickets!</h5>
+            
+            <div class="form-section">
+                <label for="name">Your name</label>
+                <input class="input" type="text" name="name" minlength="2" maxlength="60" required>
+            </div>
+            
+            <div class="form-section">
+                <label for="email">Your email address</label>
+                <input class="input" type="text" name="email" minlength="6" maxlength="60" required>
+            </div>
+            
+            <div class="form-section">
+                <label>Choose Event Date:
+                    <select name="Event">
+                        <option value="10/10" selected>10 October</option>
+                        <option value="16/10">16 October</option>
+                        <option value="17/10">17 October</option>
+                        <option value="18/10">18 October</option>
+                        <option value="23/10">23 October</option>
+                        <option value="24/10">24 October</option>
+                        <option value="30/10">30 October</option>
+                        <option value="31/10">31 October</option>
+                        <option value="06/11">06 November</option>
+                        <option value="07/11">07 November</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div class="form-section">
+                <label for="vol">Number of Tickets:</label>
+                <input type="range" list="tickmarks" name="number" min="1" max="5">
+                <datalist id="tickmarks">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                </datalist>
+            </div>
+            
+            <div class="form-section">
+                <label>Payment Method:</label>
+                <div>                    
+                    <input type="radio" name="payment" value="mastercard">
+                    <label for="mastercard">Mastercard</label>
+                </div>
+                <div>
+                    <input type="radio" id="rock" name="payment" value="visa">
+                    <label for="visa">Visa</label>
+                </div>
+            </div>
+            
+            <button type="submit" class="button">Buy Tickets</button>
+        </form>
     </main>
 
     <!-- FOOTER: -->
     <footer>
         <div id="left-footer">
-            <div id="about-wrapper" class="wrapper left-footer-wrapper">
+            <div id="about-wrapper" class="footer-wrapper left-footer-wrapper">
                 <h5>About VIA Music</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis vel quae libero facere in illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Our goal with VIA Music is to provide the best experience possible to our attendees! We make sure there is great variety, so every single weekend will be different from the previous.</p>
+                <p>To learn more about VIA Music and what we do, <a href="about.html">click here</a>.</p>
             </div>
-            <div id="copyright-wrapper" class="wrapper left-footer-wrapper">
+            <div id="copyright-wrapper" class="footer-wrapper left-footer-wrapper">
                 <ul>
                     <li><p>&copy; VIA Music</p></li>
                     <li>|</li>
@@ -51,21 +107,32 @@
             </div>
         </div>
         <div id="right-footer">
-            <div id="useful-stuff-wrapper" class="wrapper right-footer-wrapper">
-                <h5>Something here</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nihil eum tempora dicta error molestias!</p>
+            <div id="useful-stuff-wrapper" class="footer-wrapper right-footer-wrapper">
+                <h5>Useful Stuff</h5>
+                <ul>
+                    <li><a href="/pages/tickets.html">Buy Tickets</a></li>
+                    <li><a href="/pages/contact.html">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Find Us</a></li>
+                    <li><a href="/pages/upcoming.html">Upcoming Events</a></li>
+                </ul>
             </div>
-            <div id="technical-bits-wrapper" class="wrapper right-footer-wrapper">
-                <h5>More stuff here...</h5>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid alias impedit repellat minima doloremque aliquam eveniet placeat delectus rem quibusdam.</p>
+            <div id="technical-bits-wrapper" class="footer-wrapper right-footer-wrapper">
+                <h5>Technical Bits</h5>
+                <ul>
+                    <li><a href="#">Media Relations</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Statement</a></li>
+                    <li><a href="#">Cookies Policy</a></li>
+                </ul>
             </div>
-            <div id="follow-us-wrapper" class="wrapper right-footer-wrapper">
+            <div id="follow-us-wrapper" class="footer-wrapper right-footer-wrapper">
                 <h5>Follow Us</h5>
                 <ul>
                     <li><a href="http://www.facebook.com/viauniversitycollege" target="_blank" class="fab fa-facebook"></a></li>
-                    <li><a href="http://instagram.com/viauniversitycollege" target="_blank" class="fab fa-instagram-square"></a></li>
+                    <li><a href="http://www.instagram.com/viauniversitycollege" target="_blank" class="fab fa-instagram-square"></a></li>
                     <li><a href="http://www.linkedin.com/school/453415" target="_blank" class="fab fa-linkedin-in"></a></li>
-                    <li><a href="http://twitter.com/VIAuniversity" target="_blank" class="fab fa-twitter"></a></li>
+                    <li><a href="http://www.twitter.com/VIAuniversity" target="_blank" class="fab fa-twitter"></a></li>
                     <li><a href="http://www.youtube.com/user/VIAuc" target="_blank" class="fab fa-youtube"></a></li>
                 </ul>
             </div>

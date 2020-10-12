@@ -81,6 +81,10 @@ body {
     background-image: url("../images/header_background.jpg");
 }
 
+#about_header:hover h1{
+    color: #e6e6e6;
+}
+
 .mainRight p{
     margin-right:300px ;
 }

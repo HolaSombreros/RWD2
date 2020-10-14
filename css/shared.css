@@ -106,7 +106,7 @@ nav ul a:hover::before {
     transform: scaleX(1);
 }
 
-/* OTHER CONTENT, IF ANY: */
+/* OTHER: */
 .button {
     background-color: var(--buttonColor);
     color: var(--mainColor);
@@ -124,7 +124,7 @@ nav ul a:hover::before {
     background-color: var(--textColor);
 }
 
-/* FOOTER GENERAL: */
+/* FOOTER, GENERAL: */
 footer {
     width: 100%;
     background-color: #ffffff;
@@ -162,7 +162,7 @@ footer {
     width: 90%;
 }
 
-/* LEFT FOOTER COLUMN: */
+/* FOOTER, LEFT COLUMN: */
 #copyright-wrapper ul {
     display: flex;
     justify-content: space-evenly;
@@ -176,7 +176,7 @@ footer {
     color: var(--buttonColor);
 }
 
-/* RIGHT FOOTER COLUMN: */
+/* FOOTER, RIGHT COLUMN: */
 #follow-us-wrapper ul {
     display: flex;
     justify-content: space-between;

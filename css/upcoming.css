@@ -71,22 +71,6 @@ div.event:nth-child(even) {
     color: #FFF;
 }
 
-.event_buttons {
-    background-color: var(--buttonColor);
-    color: var(--mainColor);
+.button {
     padding: 5px 5px;
-    border: none;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    transition: .3s ease;
-    cursor: pointer;
 }
-
-.event_button:hover {
-    background-color: var(--textColor);
-}
-
-
-

@@ -20,7 +20,7 @@
     float: left;
 }
 
-.event_text p{
+.event_text p, .event_description p {
     color: #FFF;
 }
 

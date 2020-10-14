@@ -4,7 +4,6 @@
     <list default="true" id="f4fcc71d-898c-4e36-a159-6b0a7effa927" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/header_background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/header_background.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,8 @@
       <workItem from="1602405550061" duration="26000" />
       <workItem from="1602405577577" duration="7210000" />
       <workItem from="1602446318892" duration="6949000" />
-      <workItem from="1602506714512" duration="1573000" />
+      <workItem from="1602506714512" duration="3824000" />
+      <workItem from="1602671493262" duration="6231000" />
     </task>
     <servers />
   </component>
@@ -51,5 +51,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602405574077" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1602672166323">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602672166323" />
   </component>
 </project>

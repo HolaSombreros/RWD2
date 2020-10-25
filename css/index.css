@@ -7,15 +7,30 @@ main {
     padding: 20px;
 }
 
-#greeting-wrapper {
+.d-block {
+    height: 400px;
     width: 100%;
 }
 
-#greeting-wrapper img {
-    max-width: 100%;
-    box-shadow: 3px 3px 10px 0px rgba(0,0,0,1);
-    -webkit-box-shadow: 3px 3px 10px 0px rgba(0,0,0,1);
-    -moz-box-shadow: 3px 3px 10px 0px rgba(0,0,0,1);
+#myCarousel {
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: -3px 3px 10px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: -3px 3px 10px 0px rgba(0,0,0,1);
+    -moz-box-shadow: -3px 3px 10px 0px rgba(0,0,0,1);
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+    color: #f0f0f0;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+#greeting-wrapper {
+    width: 100%;
 }
 
 #greeting-text h1 {
@@ -37,7 +52,6 @@ main {
 .highlighted-event {
     height: 700px;
     margin: 30px 5px;
-    border: 1px solid blue;
 }
 
 .highlighted-event a:first-of-type {
@@ -57,6 +71,10 @@ main {
 
 .highlighted-event img:hover {
     opacity: 70%;
+}
+
+.highlighted-event h4 {
+    margin-top: 10px;
 }
 
 .highlighted-event > p {

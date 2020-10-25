@@ -52,7 +52,43 @@
         <div class="row">
             <div class="col-xl-5 col-md-6 col-sm-12 text-center left-main">
                 <div id="greeting-wrapper">
-                    <img class="img-fluid" src="images/band-singing.jpg" alt="Main page picture"/>
+
+                    <!-- IMAGE CAROUSEL: -->
+                    <div id="myCarousel" class="carousel slide justify-content-center" data-ride="carousel" data-interval="5000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block mx-auto img-fluid" src="images/band-singing.jpg" alt="Main page picture">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto img-fluid" src="images/micAndHeadSet.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto img-fluid" src="images/woman-singer.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto img-fluid" src="images/ladyWithGuitar.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block mx-auto img-fluid" src="images/band-playing3.jpg">
+                            </div>
+                        </div>
+            
+                        <ul class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                        </ul>
+            
+                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+
                     <div id="greeting-text">
                         <h1>Welcome to... VIA Music!</h1>
                         <p>We would all like to personally give you a warm welcome to the official VIA Music website!</p>

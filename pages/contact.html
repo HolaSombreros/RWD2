@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
     <!-- CSS STYLESHEETS: -->
     <link rel="stylesheet" type="text/css" href="../css/shared.css">
     <link rel="stylesheet" type="text/css" href="../css/contact.css">
@@ -12,20 +15,35 @@
     <!-- FONTS: -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Open+Sans&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
     <!-- HEADER: -->
     <header>
-        <nav>
-            <a href="../index.html"><img src="../images/via-uc-logo.jpg" alt="VIA University Logo"/></a>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="upcoming.html">Upcoming Events</a></li>
-                <li><a href="tickets.html">Buy Tickets</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="info.html">Info</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-light navbar-expand-xl">
+            <a class="navbar-brand" href="../index.html"><img src="../images/via-uc-logo.jpg" alt="VIA University Logo"/></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapseNavbar">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="navbar-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="upcoming.html">Upcoming Events</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="tickets.html">Buy Tickets</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="info.html">Info</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 

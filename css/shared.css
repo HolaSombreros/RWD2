@@ -12,22 +12,6 @@
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
-    background-color: var(--mainColor);
-    width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: var(--textColor);
-    border-radius: 5px;
-}
-
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    border-radius: 5px;
-}
-
 html, body {
     background-color: var(--mainColor);
     width: 100%;
@@ -53,6 +37,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: inherit;
+}
+
 h1 { font-size: 3.0em; }
 h2 { font-size: 2.4em; }
 h3 { font-size: 2.1em; }
@@ -71,45 +59,33 @@ nav {
 }
 
 nav img {
-    height: 100px;
+    height: 85px;
     padding: 10px 20px;
     cursor: pointer;
 }
 
-nav li {
-    float: left;
-}
-
 nav ul a {
-    color: var(--textColor);
-    margin-right: 50px;
-    padding: 20px 10px;
+    color: var(--textColor) !important;
     text-transform: uppercase;
     font-weight: bold;
+    margin: 0 18px;
     letter-spacing: 2px;
-    position: relative;
+    transition: 0.3s ease;
 }
 
-nav ul a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    background-color: var(--textColor);
-    height: 2px;
-    bottom: 17px;
-    left: 0;
-    transform: scaleX(0);
-    transition: 0.25s ease-out;
+nav ul a:hover {
+    color: var(--buttonColor) !important;
 }
 
-nav ul a:hover::before {
-    transform: scaleX(1);
+nav button:focus {
+    outline: none;
 }
 
 /* OTHER: */
 .button {
     background-color: var(--buttonColor);
-    color: var(--mainColor);
+    color: var(--mainColor) !important;
+    text-decoration: none !important;
     padding: 12px 20px;
     border: none;
     border-radius: 5px;
@@ -130,7 +106,6 @@ footer {
     background-color: #ffffff;
     border-top: 1px solid var(--borderColor);
     display: flex;
-    padding: 20px;
 }
 
 #left-footer, #right-footer {
@@ -174,6 +149,7 @@ footer {
 
 #about-wrapper a {
     color: var(--buttonColor);
+    text-decoration: none !important;
 }
 
 /* FOOTER, RIGHT COLUMN: */
@@ -185,9 +161,41 @@ footer {
 #follow-us-wrapper a {
     font-size: 2em;
     color: var(--buttonColor);
+    text-decoration: none !important;
     transition: .3s linear;
 }
 
 #follow-us-wrapper a:hover {
     color: var(--textColor);
+}
+
+@media screen and (max-width: 1300px) {
+    footer {
+        flex-direction: column-reverse;
+    }
+
+    #left-footer, 
+    #right-footer {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    #copyright-wrapper ul {
+        flex-direction: column;
+    }
+
+    #copyright-wrapper li:nth-child(even) {
+        display: none;
+    }
+
+    #follow-us-wrapper ul {
+        flex-direction: column;
+    }
+
+
+    #follow-us-wrapper li {
+        margin-bottom: 10px;
+    }
 }

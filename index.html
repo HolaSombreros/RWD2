@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>VIA Music - Official Homepage</title>
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
     <!-- CSS STYLESHEETS: -->
     <link rel="stylesheet" type="text/css" href="css/shared.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -12,81 +15,114 @@
     <!-- FONTS: -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Open+Sans&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
     <!-- HEADER: -->
     <header>
-        <nav>
-            <a href="index.html"><img src="images/via-uc-logo.jpg" alt="VIA University Logo"/></a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/upcoming.html">Upcoming Events</a></li>
-                <li><a href="pages/tickets.html">Buy Tickets</a></li>
-                <li><a href="pages/about.html">About</a></li>
-                <li><a href="pages/info.html">Info</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-light navbar-expand-xl">
+            <a class="navbar-brand" href="index.html"><img src="images/via-uc-logo.jpg" alt="VIA University Logo"/></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapseNavbar">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="navbar-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="pages/upcoming.html">Upcoming Events</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="pages/tickets.html">Buy Tickets</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="pages/about.html">About</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="pages/info.html">Info</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <!-- MAIN: -->
     <main>
-        <div id="left-main">
-            <div id="greeting-wrapper">
-                <img src="images/band-singing.jpg" alt="Main page picture"/>
-                <div id="greeting-text">
-                    <h1>Welcome to... VIA Music!</h1>
-                    <p>We would all like to personally give you a warm welcome to the official VIA Music website!</p>
-                    <p>VIA Music is a twice-a-week event where we celebrate all music genres! Here on our website, you can find links to different upcoming and featured events, book tickets for future events as well as get more information about <b>"The four"</b> band.</p>
-                    <p>All events have a fixed price of <b>50,- DKK</b>! Should you be in need of refreshments while attending an event, you are more than welcome to stop by our stocked in-house bar, where you are guaranteed to find something you like - be it drinks or snacks!</p>
-                    <p>If you would like to learn more about VIA Music and what we do <a href="pages/about.html">click here</a>.</p>
+        <div class="row">
+            <div class="col-xl-5 col-md-6 col-sm-12 text-center left-main">
+                <div id="greeting-wrapper">
+                    <img class="img-fluid" src="images/band-singing.jpg" alt="Main page picture"/>
+                    <div id="greeting-text">
+                        <h1>Welcome to... VIA Music!</h1>
+                        <p>We would all like to personally give you a warm welcome to the official VIA Music website!</p>
+                        <p>VIA Music is a twice-a-week event where we celebrate all music genres! Here on our website, you can find links to different upcoming and featured events, book tickets for future events as well as get more information about <b>"The four"</b> band.</p>
+                        <p>All events have a fixed price of <b>50,- DKK</b>! Should you be in need of refreshments while attending an event, you are more than welcome to stop by our stocked in-house bar, where you are guaranteed to find something you like - be it drinks or snacks!</p>
+                        <p>If you would like to learn more about VIA Music and what we do <a href="pages/about.html">click here</a>.</p>
+                    </div>
+                </div>
+                <div id="news-wrapper">
+                    <h3>News</h3>
+                    <p class="important-notice">Due to the recent complications with Covid-19, we have been forced to limit all events to a total of <span><b>100</b></span> attendees! This means that you will have to be on a reserved list in order to get in. First come, first served - this applies to <span><b>ALL EVENTS</b></span>!</p>
+                    <p>On Friday, October 30th, we are celebrating VIA Music's <b>2-year birthday</b>! Because of this, there will be free entry all night, AND there will have be a <b><span>50%</span></b> discount on <b><span>ALL ITEMS!</span></b> 
+                        in the in-house bar! We sincerely hope you come and celebrate this fantastic evening with us!</p>
+                    <p>We're happy to announce our brand-new and updated VIA Music website! We now provide online ticket purchases for everybody! Additionally, we have improved our about and info section. We hope you all like it as much as we do!</p>
                 </div>
             </div>
-            <div id="news-wrapper">
-                <h3>News</h3>
-                <p class="important-notice">Due to the recent complications with Covid-19, we have been forced to limit all events to a total of <span><b>100</b></span> attendees! This means that you will have to be on a reserved list in order to get in. First come, first served - this applies to <span><b>ALL EVENTS</b></span>!</p>
-                <p>On Friday, October 30th, we are celebrating VIA Music's <b>2-year birthday</b>! Because of this, there will be free entry all night, AND there will have be a <b><span>50%</span></b> discount on <b><span>ALL ITEMS!</span></b> 
-                    in the in-house bar! We sincerely hope you come and celebrate this fantastic evening with us!</p>
-                <p>We're happy to announce our brand-new and updated VIA Music website! We now provide online ticket purchases for everybody! Additionally, we have improved our about and info section. We hope you all like it as much as we do!</p>
-            </div>
-        </div>
-        <div id="right-main">
-            <h2>Featured Events</h2>
-            <div class="highlighted-event">
-                <a href="pages/events/event-1.html"><img src="images/singing2.jpg" alt="Picture of a girl about to start singing"/></a>
-                <h4>Karaoke Night!</h4>
-                <p>20:00 - 23:00 | Saturday, October 17th</p>
-                <div class="event-description">
-                    <p>For this one, our very own <b>Stefania</b> and <b>Vlad</b> will be hitting up some classic <b>Karaoke</b> hits, and you might even get the chance to perform your favorite hit! See you on Saturday, October 17th!</p>
+
+            <div class="col-xl-7 col-md-6 col-sm-12 text-center">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Featured Events</h2>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="highlighted-event d-flex flex-column justify-content-between align-items-center">
+                            <a href="pages/events/event-1.html"><img class="img-fluid" src="images/singing2.jpg" alt="Picture of a girl about to start singing"/></a>
+                            <h4>Karaoke Night!</h4>
+                            <p>20:00 - 23:00 | Saturday, October 17th</p>
+                            <div class="event-description">
+                                <p>For this one, our very own <b>Stefania</b> and <b>Vlad</b> will be hitting up some classic <b>Karaoke</b> hits, and you might even get the chance to perform your favorite hit! See you on Saturday, October 17th!</p>
+                            </div>
+                            <a href="pages/tickets.html" class="button">Buy Tickets</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="highlighted-event d-flex flex-column justify-content-between align-items-center">
+                            <a href="pages/events/event-2.html"><img class="img-fluid" src="images/microphone.jpg" alt="Close-up picture of a microphone"/></a>
+                            <h4>It's a Rock'ing Time!</h4>
+                            <p>19:00 - 22:00 | Friday, October 23rd</p>
+                            <div class="event-description">
+                                <p>Friday, October 23rd will be one for the record books! Not only will we be <b>Rock 'n Roll</b>'ing, but we're also having a first ever guest appearance from the one and only <b>Nicolai Sand</b>!</p>
+                            </div>
+                            <a href="pages/tickets.html" class="button">Buy Tickets</a>
+                        </div>
+                    </div>
                 </div>
-                <a href="pages/tickets.html" class="button">Buy Tickets</a>
-            </div>
-            <div class="highlighted-event">
-                <a href="pages/events/event-2.html"><img src="images/microphone.jpg" alt="Close-up picture of a microphone"/></a>
-                <h4>It's a Rock'ing Time!</h4>
-                <p>19:00 - 22:00 | Friday, October 23rd</p>
-                <div class="event-description">
-                    <p>Friday, October 23rd will be one for the record books! Not only will we be <b>Rock 'n Roll</b>'ing, but we're also having a first ever guest appearance from the one and only <b>Nicolai Sand</b>!</p>
+
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="highlighted-event d-flex flex-column justify-content-between align-items-center">
+                            <a href="pages/events/event-3.html"><img class="img-fluid" src="images/opening.jpg" alt="Picture of a concert"/></a>
+                            <h4>Greatest Hits of 2020</h4>
+                            <p>20:00 - 23:00 | Saturday, October 24th</p>
+                            <div class="event-description">
+                                <p>What's your favorite hit from <b>2020</b>? Can't pick one? Well then Saturday, October 24th, might be your lucky day! We will going over the top hits from the year so far! It's without a doubt going to be one hell of a party!</p>
+                            </div>
+                            <a href="pages/tickets.html" class="button">Buy Tickets</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="highlighted-event d-flex flex-column justify-content-between align-items-center">
+                            <a href="pages/events/event-4.html"><img class="img-fluid" src="images/guitar-man.jpg" alt="Picture of a man playing the guitar next to a microphone"/></a>
+                            <h4>Happy Birthday!</h4>
+                            <p>20:00 - 00:00 | Friday, October 30th</p>
+                            <div class="event-description">
+                                <p>This is a big one! On Friday, October 30th, we are celebrating VIA Music's <b>2-year birthday</b> as we will be kicking off the evening with our own greatest hits from the last two years!</p>
+                            </div>
+                            <a href="pages/tickets.html" class="button">Buy Tickets</a>
+                        </div>
+                    </div>
                 </div>
-                <a href="pages/tickets.html" class="button">Buy Tickets</a>
-            </div>
-            <div class="highlighted-event">
-                <a href="pages/events/event-3.html"><img src="images/opening.jpg" alt="Picture of a concert"/></a>
-                <h4>Greatest Hits of 2020</h4>
-                <p>20:00 - 23:00 | Saturday, October 24th</p>
-                <div class="event-description">
-                    <p>What's your favorite hit from <b>2020</b>? Can't pick one? Well then Saturday, October 24th, might be your lucky day! We will going over the top hits from the year so far! It's without a doubt going to be one hell of a party!</p>
-                </div>
-                <a href="pages/tickets.html" class="button">Buy Tickets</a>
-            </div>
-            <div class="highlighted-event">
-                <a href="pages/events/event-4.html"><img src="images/guitar-man.jpg" alt="Picture of a man playing the guitar next to a microphone"/></a>
-                <h4>Happy Birthday!</h4>
-                <p>20:00 - 00:00 | Friday, October 30th</p>
-                <div class="event-description">
-                    <p>This is a big one! On Friday, October 30th, we are celebrating VIA Music's <b>2-year birthday</b> as we will be kicking off the evening with our own greatest hits from the last two years!</p>
-                </div>
-                <a href="pages/tickets.html" class="button">Buy Tickets</a>
             </div>
         </div>
     </main>

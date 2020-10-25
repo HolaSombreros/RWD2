@@ -2,11 +2,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
     min-height: 750px;
     padding: 50px;
     background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url("../images/music-instruments.jpg");
     background-size: cover;
+    background-position-x: center;
     background-position-y: center;
 }
 
@@ -17,7 +18,7 @@ form {
     -moz-box-shadow: 1px 1px 10px 0px rgba(0,0,0,1);
     border-radius: 10px;
     padding: 25px;
-    min-width: 30%;
+    min-width: 40%;
     height: 90%;
     display: flex;
     flex-direction: column;

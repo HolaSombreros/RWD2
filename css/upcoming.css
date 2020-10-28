@@ -1,64 +1,5 @@
-.floating  {
-    float:left;
-}
-
-.event_image {
-    height: 146px;
-    width: 200px;
-}
-
-.event_text {
-    height: 146px;
-    width: 150px;
-    background-color: #000;
-    text-align: center;
-    font-weight: bold;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    float: left;
-}
-
-.event_text p, .event_description p {
-    color: #FFF;
-}
-
-.event_description {
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding-left: 10px;
-}
-
-
-
-#events {
-    width: 80%;
-    margin:0 auto;
-}
-
-.event  {
-    height: 150px;
-    width:auto;
-    border-style: solid;
-    border-width: 2px;
-}
-
-.genre {
-    height: 20px;
-    width: 150px;
-    background-color: #459525; 
-    color: #FFF;
-}
-
-div.event:nth-child(odd) {
-    background-color: #aaa;
-}
-
-div.event:nth-child(even) {
-    background-color: #666;
+.row img {
+    width: 100%;
 }
 
 #header{
@@ -69,6 +10,16 @@ div.event:nth-child(even) {
 
 #header h1  {
     color: #FFF;
+}
+
+.row {
+    border-style: solid;
+    padding: 10px;
+}
+
+.pad_down
+{
+    padding-bottom: 10px;
 }
 
 .button {

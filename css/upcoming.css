@@ -26,8 +26,10 @@
     height: auto;
 }
 
-.row div:nth-child(2) {
+.row div:nth-child(2) div {
     background-color: #000;
+    padding: 5px 0px;
+    
 }
 
 .row div:nth-child(2) p {
@@ -39,3 +41,9 @@
 .button {
     padding: 5px 5px;
 }
+
+@media screen and (max-width:992px) {
+    
+    .center_button {
+        text-align: center;
+    }

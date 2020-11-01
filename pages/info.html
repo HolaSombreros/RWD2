@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Info</title>
     
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../bootstrap-4.3.1-dist/css/bootstrap.min.css">
+
     <!-- CSS STYLESHEETS: -->
     <link rel="stylesheet" type="text/css" href="../css/shared.css">
     <link rel="stylesheet" type="text/css" href="../css/info.css">
@@ -13,11 +16,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Open+Sans&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
     
-    <link href="../bootstrap-4.3.1-dist/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-
+    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
-    <script src="../bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="../bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    
+    
 
 
     
@@ -25,32 +30,39 @@
     
 <body>
     
-    <!-- HEADER: -->
+   <!-- HEADER: -->
     <header>
-        <nav>
-            <a href="../index.html"><img src="../images/via-uc-logo.jpg" alt="VIA University Logo"/></a>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="upcoming.html">Upcoming Events</a></li>
-                <li><a href="tickets.html">Buy Tickets</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="info.html">Info</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navbar navbar-light navbar-expand-xl">
+            <a class="navbar-brand" href="../index.html"><img src="../images/via-uc-logo.jpg" alt="VIA University Logo"/></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapseNavbar">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="navbar-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="upcoming.html">Upcoming Events</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="tickets.html">Buy Tickets</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="info.html">Info</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    
+
     <!--MAIN-->
      <main>
-        <div class="mainbody">
-                    <h1 class=" col-sm-12 justify-content-center align-self-center"><a href="about.html"><img class = "img-fluid" src="../images/The%20four.png" ALT = "The four"></a></h1>
+        <div class="mainbody ">
+                    <h1 class=" col-lg-12 justify-content-center align-items-center d-flex"><a href="about.html"><img class = "img-fluid" src="../images/The%20four.png" ALT = "The four"></a></h1>
          
-            <div class="flex-container">
+            <div class="flex-container align-items-around justify-content-around row">
                 
-                <div class="player-box col-sm-12">
-                        <div class="Hoverme">
+                <div class="player-box col-sm-6 col-lg-3 justify-content-around align-items-center d-flex ">
+                        <div class="Hoverme ">
                             <a href="../images/Morten1.jpg"><img id ="morten" class = "us" id="morten" src="../images/Morten_small.jpg" alt ="Morten"></a>
-                        <div class= "mail">
+                        <div class= "mail justify-content-center align-items-center d-flex ">
                             <a href="mailto:304668@via.dk">Mail to Morten</a>
                         </div>
                         </div>
@@ -66,10 +78,10 @@
                
                 </div>
              
-                <div class = "player-box "> 
+                <div class = "player-box col-sm-6 col-lg-3 justify-content-around align-items-center d-flex"> 
                     <div class = "Hoverme">
                         <a href="../images/Stefi.jpg"><img class="us"  id ="stefi" src="../images/Stefi.jpg" alt="Stefi"></a>
-                    <div class= "mail">
+                    <div class= "mail justify-content-center align-items-center d-flex ">
                         <p><a href="mailto:304173@.via.dk">Mail to Stefania</a></p>
                     </div>
                     </div>
@@ -82,10 +94,10 @@
                         </div>
                     </div>       
                 </div>
-                <div class = "player-box">
+                <div class = "player-box col-sm-6 col-lg-3 justify-content-around align-items-center d-flex">
                     <div class = "Hoverme">
                             <a href="../images/Adriana1.jpg"><img class= "us" id ="adriana" src="../images/Adriana1.jpg" alt="Adriana"></a>
-                        <div class= 'mail'>
+                        <div class= 'mail justify-content-center align-items-center d-flex '>
                             <p><a href="mailto:304149@via.dk">Mail to Adriana</a></p>
                         </div>
                     </div>
@@ -98,10 +110,10 @@
                         </div>      
                     </div>
                 </div> 
-                <div class = "player-box">
-                    <div class = "Hoverme">
-                            <a href="../images/vlad-bigg.jpg"><img class="us" id="vlad" src="../images/vlad.png" alt="Vlad"></a>
-                        <div class= 'mail'>
+                <div class = "player-box col-sm-6 col-lg-3 justify-content-around align-items-center d-flex">
+                    <div class = "Hoverme justify-content-center">
+                            <a href="../images/vlad-bigg.jpg"><img class="us justify-content-center" id="vlad" src="../images/vlad.png" alt="Vlad"></a>
+                        <div class= 'mail justify-content-center align-items-center d-flex ' class="justify-content-center">
                             <p><a href="mailto:304182@via.dk">Mail to Vlad</a></p>
                         </div>
                     </div>    
@@ -118,8 +130,8 @@
           
         
             </div>
-              <div class="slogan">
-                    <a href="../index.html"><img src= "../images/the%20show-short.jpg" alt = "The show must go on"></a>
+              <div class="slogan col-lg-12 justify-content-center align-items-center d-flex">
+                    <a classhref="../index.html"><img src= "../images/the%20show-short.jpg" alt = "The show must go on"></a>
               </div>
         </div>
            

@@ -20,35 +20,6 @@
     object-fit: cover;
 }
 
-
-/*.flex-container
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row;
-    margin-bottom: 110px;
-    margin-top: 100px;
-    width: auto;
-    
-   
-}*/
-
-/*h1
-{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-
-/*.flexbox
-{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row;
-}*/
 main
 { 
     width:auto;
@@ -74,15 +45,7 @@ i{
 
     
 }
-/*.player-box
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 200px;
-    margin-bottom: 15px;
-    
-}*/
+
 .hide div p
 {
 
@@ -95,26 +58,15 @@ a{
     text-align: center;
     
 }
-/*div.Hoverme
-{
-    text-align: center;
-   
-}*/
+
 .mail
 {
-     text-align: center;
+     /*text-align: center;*/
      margin-top: 5px;
 }
 div p 
 {
     font-family: sans-serif;
 }
-/*.slogan
-{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 25px;
-}*/
+
 

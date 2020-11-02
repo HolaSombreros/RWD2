@@ -13,19 +13,19 @@
 }
 
 html, body {
-    background-color: var(--mainColor);
+    background-color: #f0f0f0;
     width: 100%;
     height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Kumbh Sans', sans-serif;
-    color: var(--textColor);
+    color: #141236;
 }
 
 p, a, li, span, label, input, textarea {
     font-family: 'Open Sans', Arial, sans-serif;
-    color: var(--textColor);
+    color: #141236;
     font-size: 1em;
 }
 
@@ -39,6 +39,7 @@ a {
 
 a:hover {
     color: inherit;
+    text-decoration: none;
 }
 
 h1 { font-size: 3.0em; }
@@ -55,7 +56,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-    border-bottom: 1px solid var(--borderColor);
+    border-bottom: 1px solid #e0e0e0;
 }
 
 nav img {
@@ -65,7 +66,7 @@ nav img {
 }
 
 nav ul a {
-    color: var(--textColor) !important;
+    color: #141236 !important;
     text-transform: uppercase;
     font-weight: bold;
     margin: 0 18px;
@@ -74,7 +75,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-    color: var(--buttonColor) !important;
+    color: #e85a4f !important;
 }
 
 nav button:focus {
@@ -83,8 +84,8 @@ nav button:focus {
 
 /* OTHER: */
 .button {
-    background-color: var(--buttonColor);
-    color: var(--mainColor) !important;
+    background-color: #e85a4f;
+    color: #f0f0f0 !important;
     text-decoration: none !important;
     padding: 12px 20px;
     border: none;
@@ -97,14 +98,14 @@ nav button:focus {
 }
 
 .button:hover {
-    background-color: var(--textColor);
+    background-color: #141236;
 }
 
 /* FOOTER, GENERAL: */
 footer {
     width: 100%;
     background-color: #ffffff;
-    border-top: 1px solid var(--borderColor);
+    border-top: 1px solid #e0e0e0;
     display: flex;
 }
 
@@ -148,7 +149,7 @@ footer {
 }
 
 #about-wrapper a {
-    color: var(--buttonColor);
+    color: #e85a4f;
     text-decoration: none !important;
 }
 
@@ -160,13 +161,13 @@ footer {
     
 #follow-us-wrapper a {
     font-size: 2em;
-    color: var(--buttonColor);
+    color: #e85a4f;
     text-decoration: none !important;
     transition: .3s linear;
 }
 
 #follow-us-wrapper a:hover {
-    color: var(--textColor);
+    color: #141236;
 }
 
 @media screen and (max-width: 1300px) {

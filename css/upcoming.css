@@ -43,7 +43,8 @@
 }
 
 @media screen and (max-width:992px) {
-    
+
     .center_button {
         text-align: center;
     }
+}

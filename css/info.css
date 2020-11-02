@@ -42,7 +42,6 @@ i{
     transition: .3s ease;
     align-items: center;
   
-
     
 }
 
@@ -59,6 +58,7 @@ a{
     
 }
 
+
 .mail
 {
      /*text-align: center;*/
@@ -67,6 +67,22 @@ a{
 div p 
 {
     font-family: sans-serif;
+}
+.mainbody
+{
+    /*height: 100%;*/
+    
+    
+}
+.player-box
+{
+    
+    height: 400px;
+    
+}
+.flex-container
+{
+    margin-top: 70px;
 }
 
 

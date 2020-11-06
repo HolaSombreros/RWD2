@@ -141,7 +141,7 @@ footer {
 /* FOOTER, LEFT COLUMN: */
 #copyright-wrapper ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #copyright-wrapper p {

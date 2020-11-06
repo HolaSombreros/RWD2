@@ -49,3 +49,11 @@ a{
 .text{
     margin-left: 0 !important;
 }
+
+.carousel-control-next-icon{
+    background-color: #1b1e21;
+}
+
+.carousel-control-prev-icon{
+    background-color: #1b1e21;
+}

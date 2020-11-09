@@ -57,3 +57,7 @@ a{
 .carousel-control-prev-icon{
     background-color: #1b1e21;
 }
+
+.col-lg-7{
+    padding: 50px;
+}

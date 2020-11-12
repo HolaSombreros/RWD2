@@ -8,10 +8,6 @@ body {
     justify-self: flex-end;
 
 }
-
-main{
-    height: content-box;
-}
  .title{
      font-family: 'Kumbh Sans', sans-serif;
      font-size: 20px;
@@ -45,6 +41,7 @@ main{
 
 .carousel-item{
     padding: 5% 0%;
+    height: 500px;
 }
 a{
     color: #e85a4f;

@@ -41,7 +41,7 @@ body {
 
 .carousel-item{
     padding: 5% 0%;
-    height: 500px;
+    min-height: 550px;
 }
 a{
     color: #e85a4f;
@@ -61,4 +61,10 @@ a{
 
 .col-lg-7{
     padding: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel-item {
+        min-height: 850px;
+    }
 }
